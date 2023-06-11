@@ -1,16 +1,22 @@
 tap "homebrew/bundle"
+# Use AWS IAM credentials to authenticate to Kubernetes
+brew "aws-iam-authenticator"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Bash scripts that integrate bat with various command-line tools
 brew "bat-extras"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
+# Isolated development environments using Docker
+brew "docker-compose"
 # Modern replacement for 'ls'
 brew "exa"
 # Distributed revision control system
 brew "git"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Pager program similar to more
 brew "less"
 # Mac App Store command-line interface
@@ -43,6 +49,8 @@ cask "miro"
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Graphical client for Git version control
+cask "sourcetree"
 # Open-source code editor
 cask "visual-studio-code"
 mas "Notion Web Clipper", id: 1559269364
