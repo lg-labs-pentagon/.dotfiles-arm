@@ -3,6 +3,8 @@ tap "homebrew/bundle"
 brew "bat"
 # Bash scripts that integrate bat with various command-line tools
 brew "bat-extras"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
 # Modern replacement for 'ls'
 brew "exa"
 # Distributed revision control system
@@ -25,8 +27,6 @@ brew "yarn"
 brew "zsh"
 # Application launcher and productivity software
 cask "alfred"
-# App to build and share containerized applications and microservices
-cask "docker"
 # Online diagram software
 cask "drawio"
 # Web browser

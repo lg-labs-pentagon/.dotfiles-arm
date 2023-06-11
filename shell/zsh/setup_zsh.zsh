@@ -16,7 +16,7 @@ else
   echo "Enter user password to change login shell"
   sudo ln -s /bin/zsh /usr/local/bin
   sudo ln -s /opt/homebrew/bin/zsh /usr/local/bin
-  chsh -s '/usr/local/bin/zsh'
+  chsh -s /bin/zsh
 fi
 
 if sh --version | grep -q zsh; then
