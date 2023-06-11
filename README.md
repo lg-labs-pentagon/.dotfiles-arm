@@ -20,7 +20,7 @@ https://lufgarciaqu.medium.com
 Execute the [`installer`](installer) from your terminal in order to avoid even having to manually install git!
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/lg-labs-pentagon/lg-labs-dotfiles/mac-arm/installer)
+bash <(curl -s https://raw.githubusercontent.com/lg-labs-pentagon/.dotfiles-arm/main/installer)
 ```
 
 ## Content
