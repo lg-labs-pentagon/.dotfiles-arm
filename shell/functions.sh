@@ -9,3 +9,20 @@ function recent_dirs() {
 
   cd "$(echo "$selected" | sed "s/\~/$escaped_home/")" || echo "Invalid directory"
 }
+
+# Kubernetes
+function get_namespaces() {
+  kubectl get namespace
+}
+
+function get_namespace() {
+  kubectl config view --minify | grep namespace
+}
+
+function set_namespace() {
+  kubectl config set-context --current --namespace=$1
+}
+
+function get_pods() {
+  kubectl get pods
+}
